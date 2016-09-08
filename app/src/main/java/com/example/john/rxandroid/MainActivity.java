@@ -29,4 +29,14 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
+    @OnClick(R.id.bt_operator)
+    void bt_operator() {
+        startActivity(new Intent(this, OperatorsActivity.class));
+    }
+
+    @OnClick(R.id.bt_scheduler)
+    void bt_scheduler() {
+        startActivity(new Intent(this, SchedulerActivity.class));
+    }
+
 }

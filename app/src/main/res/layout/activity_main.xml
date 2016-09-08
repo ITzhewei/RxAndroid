@@ -7,10 +7,22 @@
     android:orientation="vertical"
     tools:context="com.example.john.rxandroid.MainActivity">
 
+
     <Button
         android:id="@+id/bt_common"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="按钮"/>
+
+    <Button
+        android:id="@+id/bt_operator"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="operator"/>
+    <Button
+        android:id="@+id/bt_scheduler"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="bt_scheduler"/>
 
 </LinearLayout>

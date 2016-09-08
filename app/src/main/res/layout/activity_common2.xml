@@ -8,9 +8,33 @@
     tools:context="com.example.john.rxandroid.CommonActivity">
 
     <Button
-        android:id="@+id/bt_listen"
+        android:id="@+id/bt_listen1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="监听回调"/>
-
+    <Button
+        android:id="@+id/bt_listen2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="基本实现案例"/>
+    <Button
+        android:id="@+id/bt_listen3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="变化1"/>
+    <Button
+        android:id="@+id/bt_listen4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="变化2"/>
+    <Button
+        android:id="@+id/bt_listen5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="变化3"/>
+    <Button
+        android:id="@+id/bt_listen6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="变化4"/>
 </LinearLayout>
