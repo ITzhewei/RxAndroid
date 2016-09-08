@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">RxAndroid</string>
+    <string name="title_activity_common">Common</string>
+    <string name="action_settings">Settings</string>
+</resources>
